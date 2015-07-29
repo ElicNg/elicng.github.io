@@ -49,10 +49,8 @@
         }
 
         .side {
-            width: 100%;
             color: #FFF;
-            position:relative;
-            padding: 0px;
+            margin: 10px 0px 20px 0px;
         }
 
         .sidebar i {
@@ -60,8 +58,15 @@
             color: #FFF;
         }
 
+        .side-icons {
+            text-align: end;
+        }
+
         .profile {
             padding: 0 !important;
+            position: relative;
+            color: white;
+            text-align: center;
         }
 
         .profile img {
@@ -70,7 +75,6 @@
 
         .profile p {
             position:absolute;
-            width: 100%;
             text-align: center;
             font-weight: 200;
         }
@@ -80,11 +84,13 @@
             margin:10px 0px 0px 0px;
             font-weight: 200;
             font-size: 3rem;
+            width: 100%;
         }
 
         .profile-description {
             bottom: 0px;
             font-size: 20px;
+            width: 100%;
         }
 
         .phone a {
@@ -136,15 +142,23 @@
     <div class="row blue-grey lighten-5">
         <div class="sidebar col s4 blue lighten-1 z-depth-1">
             <div class="row">
-                <div class="col s12 side profile ">
+                <div class="col s12 profile ">
                     <img class="responsive-img z-depth-1" src="images/elic.jpg">
-                    <div class="description">
-                        <p class="profile-name">Elic Ng</p>
-                        <p class="profile-description">Programmeur</p>
-                    </div>
+                    <p class="profile-name">Elic Ng</p>
+                    <p class="profile-description ">Programmeur</p>
                 </div>
 
-                <i class="col s3 material-icons">email</i>
+                <i class="side-icons col s3 material-icons">location_city</i>
+
+                <div class="col s9 side location">
+                    <div class="phone">
+                        <p>Montréal</p>
+                        <span class="condensed light">Québec, Canada</span>
+                    </div>
+                </div>
+                <div class="col s8 offset-s4 divider"></div>
+
+                <i class="side-icons col s3 material-icons">email</i>
 
                 <div class="col s9 side contact">
                     <div class="phone">
@@ -152,10 +166,11 @@
                         <span class="condensed light">Courriel</span>
                     </div>
                 </div>
+                <div class="col s8 offset-s4 divider"></div>
 
-                <i class="col s2 material-icons">phone</i>
+                <i class="side-icons col s3 material-icons">phone</i>
 
-                <div class="col s10 side contact">
+                <div class="col s9 side contact">
                     <div class="phone">
                         <p><a href="tel:438-888-2880">(438) 888-2880</a></p>
                         <span class="condensed light">Mobile</span>
@@ -165,15 +180,30 @@
                         <span class="condensed light">Résidentiel</span>
                     </div>
                 </div>
+                <div class="col s8 offset-s4 divider"></div>
 
-                <i class="col s2 material-icons">translate</i>
+                <i class="side-icons col s3 material-icons">translate</i>
 
-                <div class="col s10 side language">
+                <div class="col s9 side language">
                     <div class="phone">
                         <ul>
                             <li>Français</li>
                             <li>Anglais</li>
                             <li>Cantonais</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col s8 offset-s4 divider"></div>
+
+                <i class="side-icons col s3 material-icons">translate</i>
+
+                <div class="col s9 side language">
+                    <div class="phone">
+                        <ul>
+                            <li>LinkedIn.com/ElicNg</li>
+                            <li>Twitter.com/ElicNg</li>
+                            <li>ElicNg.com</li>
                         </ul>
                     </div>
                 </div>
