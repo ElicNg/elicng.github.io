@@ -2,22 +2,22 @@
 .main {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,667e99+100 */
     background: #7db9e8; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #7db9e8 0%, #667e99 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7db9e8), color-stop(100%,#667e99)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #7db9e8 0%,#667e99 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #7db9e8 0%,#667e99 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #7db9e8 0%,#667e99 100%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  #7db9e8 0%,#667e99 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#667e99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-radial-gradient(center, ellipse cover, #7db9e8 0%, #667e99 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #7db9e8), color-stop(100%, #667e99)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #7db9e8 0%, #667e99 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #7db9e8 0%, #667e99 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #7db9e8 0%, #667e99 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #7db9e8 0%, #667e99 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db9e8', endColorstr='#667e99', GradientType=1); /* IE6-9 fallback on horizontal gradient */
     padding: 40px 0px 40px 0px;
 }
 
 html, body {
-    background-color: #DDD;
+    background-color: #6A88A6;
 }
 
 .container {
-    background-color: #FFF;
+    background-color: #FFFFFF;
     margin: 0px auto 0px auto;
     padding: 0px;
     width: 215mm;
@@ -51,7 +51,15 @@ html, body {
 
 .sidebar i {
     margin: 23px 0px 0px 20px;
-    color: #FFF;
+    color: #FFFFFF;
+}
+
+.sidebar a {
+    color: #FFFFFF;
+}
+
+.sidebar p {
+    color: #FFFFFF;
 }
 
 .side-icons {
@@ -61,35 +69,20 @@ html, body {
 .profile {
     padding: 0 !important;
     position: relative;
-    color: white;
-}
-
-.communication a {
-    color: white;
-}
-
-.profile img {
-    position: relative;
-}
-
-.profile p {
-    position: absolute;
     font-weight: 200;
+    background-color: #3289D0;
 }
 
-.profile-name {
-    top: 0px;
-    margin: 10px 0px 0px 5px;
-    font-weight: 200;
+.profile .name {
     font-size: 3rem;
-    width: 100%;
+    text-align: center;
+    margin: 5px;
 }
 
-.profile-description {
-    bottom: 0px;
+.profile .description {
     font-size: 20px;
-    width: 100%;
-    margin-left: 5px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .side-item p {
@@ -132,7 +125,11 @@ html, body {
     line-height: 10px;
 }
 
-.description {
+.title a {
+    color: #000000;
+}
+
+.content .description {
     margin: 10px 0px 0px 0px !important;
     text-align: justify;
 }
@@ -155,5 +152,6 @@ html, body {
 }
 
 .fixed-action-btn {
-    bottom: 45px; right: 24px;
+    bottom: 45px;
+    right: 24px;
 }
